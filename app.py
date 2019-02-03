@@ -49,4 +49,4 @@ def delete_fibonacci(position):
     return jsonify({ 'Position %s has been removed'%position: viewedFibonacci }), 201
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
