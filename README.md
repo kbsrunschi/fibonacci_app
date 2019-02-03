@@ -84,6 +84,8 @@ Given a more complex application, I would add a Drakefile to automate pushing an
 
 ### Product Display & Caching
 
+[Screenshots](https://docs.google.com/document/d/1Wz6OXJyaS4VLgTQVaLB1bUPthp_gLwyllmiiUb-IEoA/edit?usp=sharing)
+
 Currently, from the Homepage a customer can scroll to the SHOP BY CATEGORY section and select a category.
 
 From there, the page is slow to load so I would speed up the code and infrastructure to return the items in under 1 second.
