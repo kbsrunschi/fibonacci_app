@@ -122,3 +122,5 @@ A lot of products aren't tagged well which causes users to miss out on items tha
 
 By speeding up the pages both by adding caching and improving the application response time, and improving the searching and viewing of items, we can increase the size of a users basket and improve user completion rates driving higher sales. 
 
+Additionally, the browse-ability of Foxtrot is great when customers are new and not sure what Foxtrot offers or what they make like, but as the base grows and people become repeat customers, they are more likely to re-purchase prior items and so the application should have features that allow speed of checkout (historical purchases, re-adding last purchase, improved searching and filtering, and product recommendations).
+
