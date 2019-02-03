@@ -45,12 +45,12 @@ def delete_fibonacci(position):
     return jsonify({'Position %s has been removed'%position: viewedFibonacci}), 201
 
 @app.errorhandler(404)
-def not_found():
+def not_found(error):
     """ Gracefully handle 404 HTTP errors """
     return make_response(jsonify({'error': 'Sorry! Couldn\'t find that one.'}), 404)
 
 @app.errorhandler(400)
-def bad_request():
+def bad_request(error):
     """ Gracefully handle 400 HTTP errors """
     error_message = 'Ah! Bad request! Please try again. Use /fib/help for availble commands'
     return make_response(jsonify({'error': error_message}), 400)
