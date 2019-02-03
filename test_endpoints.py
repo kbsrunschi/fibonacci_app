@@ -1,7 +1,6 @@
 #!flask/bin/python
-from app import app
 import unittest
-from flask import url_for, request, jsonify
+from fibonacci_app.app import app
 
 class TestEndpoints(unittest.TestCase):
     def setUp(self):
