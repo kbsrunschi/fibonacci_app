@@ -115,7 +115,7 @@ From the home screen, I would also add a "Order Again" banner that users could c
 
 ### Better tagging
 
-A lot of products aren't tagged well which causes users to miss out on items that they would otherwise be interested in purchasing. An example of this is searching _vegan_ returns approx 10 results, notably not including guacamole. When I view the guacamole item, it is labelled vegan. Improved tagging will enable users to find what they are looking for faster and increase number of completed purchases. 
+A lot of products aren't tagged well which causes users to miss out on items that they would otherwise be interested in purchasing. An example of this is searching _vegan_ returns approx 10 results, notably not including guacamole. When I view the guacamole item, it is labelled vegan. Improved tagging will enable users to find what they are looking for faster and increase number of completed purchases with more products. 
 
 
 ## Overall
