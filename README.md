@@ -4,7 +4,7 @@
 
 * How to run the test suite
 
-    ubuntuAWS$ ./test_fibonacci.py -v
+    ubuntuAWS$ python -m unittest discover .
 
 * Deployment instructions
 
