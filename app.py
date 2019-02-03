@@ -10,14 +10,6 @@ viewedFibonacci = {}
 def index():
     return "Hello & Welcome!"
 
-@app.errorhandler(404)
-def not_found(error):
-    return make_response(jsonify({'error': 'Sorry! Couldn\'t find that one.'}), 404)
-
-@app.errorhandler(400)
-def bad_request(error):
-    return make_response(jsonify({'error': 'Ah! Bad request! Please try again. Use /fib/help for availble commands'}), 400)
-
 @app.route('/fib', methods = ['GET'])
 def get_fibonaccis():
     return jsonify({ 'Previously calculated fibonaccis:': viewedFibonacci })
@@ -36,8 +28,7 @@ def get_single_fibonacci():
     if not request.json or not 'position' in request.json:
         abort(400)
     position = request.json['position']
-    fib_algo = Fibonacci()
-    viewedFibonacci[position] = fib_algo.calc_fib(position)
+    viewedFibonacci[position] = Fibonacci().calc_fib(position)
     return jsonify({ 'Position %s'%position: viewedFibonacci[position] }), 201
 
 @app.route('/fib/<int:position>', methods = ['DELETE'])
@@ -47,6 +38,14 @@ def delete_fibonacci(position):
     else:
         abort(404)
     return jsonify({ 'Position %s has been removed'%position: viewedFibonacci }), 201
+
+@app.errorhandler(404)
+def not_found(error):
+    return make_response(jsonify({'error': 'Sorry! Couldn\'t find that one.'}), 404)
+
+@app.errorhandler(400)
+def bad_request(error):
+    return make_response(jsonify({'error': 'Ah! Bad request! Please try again. Use /fib/help for availble commands'}), 400)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
