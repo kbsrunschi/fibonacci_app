@@ -2,11 +2,11 @@
 
 # Fibonacci Application
 
-* How to run the test suite
+## How to run the test suite
 
     ubuntuAWS$ python -m unittest discover .
 
-* Deployment instructions
+## Deployment instructions
 
 [ ] Log into AWS ec2 instance with port forwarding
 
@@ -42,7 +42,7 @@ Alternatively, run both of these commands via the startup script
 
     sh populate_data.sh
 
-* Using the application
+## Using the application
 
   See all previously computed fibonacci numbers
     curl -i http://localhost:5000/fib
@@ -56,20 +56,20 @@ Alternatively, run both of these commands via the startup script
   Delete the value associated with the position in the sequence n
     curl -X "DELETE" http://localhost:5000/fib/{n}
 
-* Stop all instances
+## Stop all instances
 
     ubuntuAWS$ sh docker_down.sh
 
-* Data persistence
+## Data persistence
 
 This application does not use a database to store historical fibonacci numbers viewed, instead relying on a memory data structure. This means that when the server is stopped, all prior data will be lost. 
 In order to speed up testing and/or usage of this application, there is a script `populate_data.sh` that can be called to populate some base values.
 
-* Security
+## Security
 
 I did not add authentication to this application but doing so would be simple with the help of flask's HTTPBasicAuth library.
 
-* Improvements
+## Improvements
 
 Given a more complex application, I would add a Drakefile to automate pushing and pulling Docker images, the set up of a database and dependent containers, and shorthand commands to build, test, start, and exec into the container images. Nginx and Gunicorn could be added to support high traffic.
 
