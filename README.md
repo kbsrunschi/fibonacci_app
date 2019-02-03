@@ -4,19 +4,52 @@
 
 * How to run the test suite
 
-`./test_fibonacci.py -v`
+    ubuntuAWS$ ./test_fibonacci.py -v
 
 * Deployment instructions
 
+[ ] Log into AWS ec2 instance with port forwarding
+
+    localMachine$ ssh -i {YOUR PEM}.pem -L 5000:127.0.0.1:5000 ubuntu@54.227.81.4
+
+[ ] cd into fibonacci_app repo and pull the latest
+
+    ubuntuAWS$ cd fibonacci_app
+    ubuntuAWS$ git pull
+
+[ ] Deploy docker app
+
+    ubuntuAWS$ docker run -p 5000:5000 --rm -t kbsrunschi/my-fibonacci-app
+
+[ ] On your local machine, use any of the following commands to test your connection to the application
+
+    curl -i http://localhost:5000/
+
+    curl -i http://localhost:5000/fib
+
+    curl -i http://localhost:5000/fib/help
+
+[ ] Populate some base data (requires cloning the git repo locally) with the application running on the AWS instance
+
+    git clone https://github.com/kbsrunschi/fibonacci_app.git
+
+    cd fibonacci_app
+
+    sh populate_data.sh
+
 * Using the application
 
-curl -i http://localhost:5000/fib
+  See all previously computed fibonacci numbers
+    curl -i http://localhost:5000/fib
 
-curl -i http://localhost:5000/fib/help
+  See available commands
+    curl -i http://localhost:5000/fib/help
 
-curl -i -H "Content-Type: application/json" -X POST -d '{"position": {n} }' http://localhost:5000/fib
+  Get the fibonacci number for some number position in the sequence n
+    curl -i -H "Content-Type: application/json" -X POST -d '{"position": {n} }' http://localhost:5000/fib
 
-curl -X "DELETE" http://localhost:5000/fib/{n}
+  Delete the value associated with the position in the sequence n
+    curl -X "DELETE" http://localhost:5000/fib/{n}
 
 * Data persistence
 
@@ -26,6 +59,10 @@ In order to speed up testing and/or usage of this application, there is a script
 * Security
 
 I did not add authentication to this application but doing so would be simple with the help of flask's HTTPBasicAuth library.
+
+* Improvements
+
+tbw
 
 # Feature/Flow Refactor
 
