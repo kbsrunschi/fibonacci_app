@@ -2,11 +2,18 @@
 
 # Fibonacci Application
 
-## How to run the test suite
+## Table of Contents
+1. [Testing](#testing)
+2. [Deploying](#deployment)
+3. [Using the app](#running)
+4. [Tear down docker](#teardown)
+5. [iOS App Refactor](#feature_refactor)
+
+## How to run the test suite <a name="testing"></a>
 
     ubuntuAWS$ python -m unittest discover .
 
-## Deployment instructions
+## Deployment instructions <a name="deployment"></a>
 
 [ ] Log into AWS ec2 instance with port forwarding
 
@@ -42,7 +49,7 @@ Alternatively, run both of these commands via the startup script
 
     sh populate_data.sh
 
-## Using the application
+## Using the application <a name="running"></a>
 
   See all previously computed fibonacci numbers
     curl -i http://localhost:5000/fib
@@ -56,7 +63,7 @@ Alternatively, run both of these commands via the startup script
   Delete the value associated with the position in the sequence n
     curl -X "DELETE" http://localhost:5000/fib/{n}
 
-## Stop all instances
+## Stop all instances <a name="teardown"></a>
 
     ubuntuAWS$ sh docker_down.sh
 
@@ -73,7 +80,7 @@ I did not add authentication to this application but doing so would be simple wi
 
 Given a more complex application, I would add a Drakefile to automate pushing and pulling Docker images, the set up of a database and dependent containers, and shorthand commands to build, test, start, and exec into the container images. Nginx and Gunicorn could be added to support high traffic.
 
-# Feature/Flow Refactor
+# Feature/Flow Refactor <a name="feature_refactor"></a>
 
 ### Product Display & Caching
 
