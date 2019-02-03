@@ -78,7 +78,7 @@ I did not add authentication to this application but doing so would be simple wi
 
 ## Improvements
 
-Given a more complex application, I would add a Drakefile to automate pushing and pulling Docker images, the set up of a database and dependent containers, and shorthand commands to build, test, start, and exec into the container images. Nginx and Gunicorn could be added to support high traffic.
+Given a more complex application, I would add a Drakefile to automate pushing and pulling Docker images, the set up of a database and dependent containers, and shorthand commands to build, test, start, and exec into the container images. Nginx and Gunicorn could be added to support high traffic. Lastly, I would add a database to persist data between sessions and some frontend code to enable uses to view this tool in their web browser. 
 
 # Feature/Flow Refactor <a name="feature_refactor"></a>
 
