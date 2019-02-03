@@ -1,0 +1,682 @@
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:04:34 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kathrysmith/.rvm/gems/ruby-2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kathrysmith/.rvm/gems/ruby-2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 25ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:08:06 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kathrysmith/.rvm/gems/ruby-2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kathrysmith/.rvm/gems/ruby-2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2019-02-02 19:08:10 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/welcome" for 127.0.0.1 at 2019-02-02 19:10:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/welcome" for 127.0.0.1 at 2019-02-02 19:10:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:10:30 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 699ms (Views: 696.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:11:57 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:14:45 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:15:05 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:16:54 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:17:14 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:17:22 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:17:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:17:29 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:23:51 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 291ms (Views: 280.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:23:53 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:24:01 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:25:26 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:26:09 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "... this component": expected "{", was ""):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/welcome.scss:176
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2235602722237199010_70255677338480'
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:26:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 119ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:26:30 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:26:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:28:46 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:30:11 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:30:21 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:30:43 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:30:44 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:30:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:30:49 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:34:56 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:35:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:40:16 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:40:24 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:42:31 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:53:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"welcome"}, missing required keys: [:id]):
+     9:   </nav>
+    10: </header>
+    11: 
+    12: <%= form_with scope: :welcome, url: welcome_path, local: true do |form| %>
+    13:   <p>
+    14:     <%= form.label :title %><br>
+    15:     <%= form.text_field :title %>
+  
+app/views/welcome/index.html.erb:12:in `_app_views_welcome_index_html_erb___978051482928910288_70144036797220'
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:56:38 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (304.9ms)
+Completed 500 Internal Server Error in 321ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0x007f975d9e3288>:0x007f975d015148>
+Did you mean?  welcome_index_path):
+     9:   </nav>
+    10: </header>
+    11: 
+    12: <%= form_with scope: :welcome, url: welcome_path, local: true do |form| %>
+    13:   <p>
+    14:     <%= form.label :title %><br>
+    15:     <%= form.text_field :title %>
+  
+app/views/welcome/index.html.erb:12:in `_app_views_welcome_index_html_erb___978051482928910288_70144043782940'
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:56:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (252.0ms)
+Completed 500 Internal Server Error in 265ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0x007f975d9e3288>:0x007f975dadafd8>
+Did you mean?  welcome_index_path):
+     9:   </nav>
+    10: </header>
+    11: 
+    12: <%= form_with scope: :welcome, url: welcome_path, local: true do |form| %>
+    13:   <p>
+    14:     <%= form.label :title %><br>
+    15:     <%= form.text_field :title %>
+  
+app/views/welcome/index.html.erb:12:in `_app_views_welcome_index_html_erb___978051482928910288_70144044279000'
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:57:02 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (260.1ms)
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `fibonacci' for #<#<Class:0x007f975d9e3288>:0x007f975dbc65f0>
+Did you mean?  fibonacci_url):
+     9:   </nav>
+    10: </header>
+    11: 
+    12: <%= form_with scope: :fibonacci, url: fibonacci, local: true do |form| %>
+    13:   <p>
+    14:     <%= form.label :title %><br>
+    15:     <%= form.text_field :title %>
+  
+app/views/welcome/index.html.erb:12:in `_app_views_welcome_index_html_erb___978051482928910288_70144044710560'
+Started GET "/" for 127.0.0.1 at 2019-02-02 19:59:20 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"fibonacci"}, missing required keys: [:id]):
+     9:   </nav>
+    10: </header>
+    11: 
+    12: <%= form_with scope: :fibonacci, url: fibonacci_path, local: true do |form| %>
+    13:   <p>
+    14:     <%= form.label :title %><br>
+    15:     <%= form.text_field :title %>
+  
+app/views/welcome/index.html.erb:12:in `_app_views_welcome_index_html_erb___3496779233228715188_70270894361480'
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:00:02 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"fibonaccis"}, missing required keys: [:id]):
+     9:   </nav>
+    10: </header>
+    11: 
+    12: <%= form_with scope: :fibonacci, url: fibonacci_path, local: true do |form| %>
+    13:   <p>
+    14:     <%= form.label :title %><br>
+    15:     <%= form.text_field :title %>
+  
+app/views/welcome/index.html.erb:12:in `_app_views_welcome_index_html_erb___3496779233228715188_70270894781160'
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:01:05 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 436ms (Views: 430.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:06:08 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 52ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:07:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:07:34 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cv/abQyGrKciG3Dg8A5YucGsWcByfyzPTxGY8/FqN2VncL6LXbAHP/P4oshhbOJEb7u8rh1gDGtqVkeJodkaDw==", "fibonacci"=>{"text"=>"4"}, "commit"=>"Save Fibonacci"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:07:59 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cv/abQyGrKciG3Dg8A5YucGsWcByfyzPTxGY8/FqN2VncL6LXbAHP/P4oshhbOJEb7u8rh1gDGtqVkeJodkaDw==", "fibonacci"=>{"text"=>"4"}, "commit"=>"Save Fibonacci"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateFibonaccis (20190203021023)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "fibonaccis" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "position" integer, "fib_number" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190203021023_create_fibonaccis.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190203021023"]]
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-02-03 02:11:01.939301"], ["updated_at", "2019-02-03 02:11:01.939301"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:15:30 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kathrysmith/.rvm/gems/ruby-2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 221ms (Views: 207.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:16:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:16:44 -0600
+  
+SyntaxError (/Users/kathrysmith/Documents/Foxtrot/fibonacci_app/app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+    @redirect_to  @welcome
+                          ^):
+  
+app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:17:16 -0600
+  
+SyntaxError (/Users/kathrysmith/Documents/Foxtrot/fibonacci_app/app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+    @redirect_to @position
+                          ^):
+  
+app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:17:19 -0600
+  
+SyntaxError (/Users/kathrysmith/Documents/Foxtrot/fibonacci_app/app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+    @redirect_to @position
+                          ^):
+  
+app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:20:32 -0600
+  
+SyntaxError (/Users/kathrysmith/Documents/Foxtrot/fibonacci_app/app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+    @redirect_to @position
+                          ^):
+  
+app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+Started GET "/fibonaccis/new" for 127.0.0.1 at 2019-02-02 20:20:47 -0600
+  
+SyntaxError (/Users/kathrysmith/Documents/Foxtrot/fibonacci_app/app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+    @redirect_to @position
+                          ^):
+  
+app/controllers/fibonaccis_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+Started GET "/welcome" for 127.0.0.1 at 2019-02-02 20:21:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:21:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 43ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:21:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:21:51 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JAMVbKESbu7mveup4qnoL3oPym/dgjkMmrcLu06czYdJjHGK8CTFdjdeOYFzy1LS1BgvAbKdGai/8NTBHi/g7Q==", "fibonacci"=>{"text"=>"4"}, "commit"=>"Save Fibonacci"}
+Unpermitted parameter: :text
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `fibonacci_value' for #<FibonaccisController:0x007fa7116fb818>
+Did you mean?  _fibonacci_value
+               fibonacci_url
+               fibonacci_path):
+  
+app/controllers/fibonaccis_controller.rb:4:in `create'
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:24:40 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JAMVbKESbu7mveup4qnoL3oPym/dgjkMmrcLu06czYdJjHGK8CTFdjdeOYFzy1LS1BgvAbKdGai/8NTBHi/g7Q==", "fibonacci"=>{"text"=>"4"}, "commit"=>"Save Fibonacci"}
+Unpermitted parameter: :text
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.8ms)
+
+
+  
+NameError (undefined local variable or method `fibonacci' for #<FibonaccisController:0x007fa71617b488>
+Did you mean?  fibonacci_url):
+  
+app/controllers/fibonaccis_controller.rb:6:in `create'
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:24:43 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JAMVbKESbu7mveup4qnoL3oPym/dgjkMmrcLu06czYdJjHGK8CTFdjdeOYFzy1LS1BgvAbKdGai/8NTBHi/g7Q==", "fibonacci"=>{"text"=>"4"}, "commit"=>"Save Fibonacci"}
+Unpermitted parameter: :text
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `fibonacci' for #<FibonaccisController:0x007fa71386faa8>
+Did you mean?  fibonacci_url):
+  
+app/controllers/fibonaccis_controller.rb:6:in `create'
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:26:33 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JAMVbKESbu7mveup4qnoL3oPym/dgjkMmrcLu06czYdJjHGK8CTFdjdeOYFzy1LS1BgvAbKdGai/8NTBHi/g7Q==", "fibonacci"=>{"text"=>"4"}, "commit"=>"Save Fibonacci"}
+Unpermitted parameter: :text
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `<' for #<Fibonacci:0x007fa711781e40>):
+  
+app/controllers/fibonaccis_controller.rb:34:in `block in _get_fibonacci_value'
+app/controllers/fibonaccis_controller.rb:35:in `_get_fibonacci_value'
+app/controllers/fibonaccis_controller.rb:5:in `create'
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:29:29 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:29:31 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R3VLoVaumTYa7q+U4LW2NWgfTStYAJStKVkVNWwFZQ4q+i9HB5gyrssNfbxx1wzIxgioRTcftAkMHspPPLZIZA==", "fibonacci"=>{"position"=>"4"}, "commit"=>"Save Fibonacci"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `<=' for #<Fibonacci:0x007fa7126adb58>
+Did you mean?  <=>):
+  
+app/controllers/fibonaccis_controller.rb:34:in `_get_fibonacci_value'
+app/controllers/fibonaccis_controller.rb:5:in `create'
+Started GET "/" for 127.0.0.1 at 2019-02-02 20:30:05 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fibonaccis" for 127.0.0.1 at 2019-02-02 20:30:07 -0600
+Processing by FibonaccisController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zpzhGg37mqlgD46HB/ZWFQ5Qsj02bjiuxGyFvbTrG6OjE4X8XM0xMbHsXK+WlOzooEdXU1lxGArhK1rH5Fg2yQ==", "fibonacci"=>{"position"=>"4"}, "commit"=>"Save Fibonacci"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `<=' for #<Fibonacci:0x007fa716072000>
+Did you mean?  <=>):
+  
+app/controllers/fibonaccis_controller.rb:32:in `_get_fibonacci_value'
+app/controllers/fibonaccis_controller.rb:5:in `create'
