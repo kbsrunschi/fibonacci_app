@@ -17,9 +17,14 @@
     ubuntuAWS$ cd fibonacci_app
     ubuntuAWS$ git pull
 
-[ ] Deploy docker app
+[ ] Build & Deploy docker app
 
+    ubuntuAWS$ docker build -t kbsrunschi/my-fibonacci-app .
     ubuntuAWS$ docker run -p 5000:5000 --rm -t kbsrunschi/my-fibonacci-app
+
+Alternatively, run both of these commands via the startup script
+
+    ubuntuAWS$ sh docker_up.sh
 
 [ ] On your local machine, use any of the following commands to test your connection to the application
 
@@ -51,6 +56,10 @@
   Delete the value associated with the position in the sequence n
     curl -X "DELETE" http://localhost:5000/fib/{n}
 
+* Stop all instances
+
+    ubuntuAWS$ sh docker_down.sh
+
 * Data persistence
 
 This application does not use a database to store historical fibonacci numbers viewed, instead relying on a memory data structure. This means that when the server is stopped, all prior data will be lost. 
@@ -62,7 +71,7 @@ I did not add authentication to this application but doing so would be simple wi
 
 * Improvements
 
-tbw
+Given a more complex application, I would add a Drakefile to automate pushing and pulling Docker images, the set up of a database and dependent containers, and shorthand commands to build, test, start, and exec into the container images. Nginx and Gunicorn could be added to support high traffic.
 
 # Feature/Flow Refactor
 
