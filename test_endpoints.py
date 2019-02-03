@@ -1,6 +1,6 @@
 #!flask/bin/python
 import unittest
-from fibonacci_app.app import app
+from app import app
 
 class TestEndpoints(unittest.TestCase):
     def setUp(self):

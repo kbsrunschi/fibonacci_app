@@ -1,6 +1,6 @@
 #!flask/bin/python
 import unittest
-from fibonacci_app.fibonacci import Fibonacci
+from fibonacci import Fibonacci
 
 class TestFibonacciViewer(unittest.TestCase):
     def test_valid_number(self):

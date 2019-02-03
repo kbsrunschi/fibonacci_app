@@ -1,6 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify, abort, make_response, request
-from fibonacci_app.fibonacci import Fibonacci
+from fibonacci import Fibonacci
 
 app = Flask(__name__)
 
