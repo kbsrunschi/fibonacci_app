@@ -35,33 +35,33 @@ Alternatively, run both of these commands via the startup script
 
 [ ] On your local machine, use any of the following commands to test your connection to the application
 
-    curl -i http://localhost:5000/
+    localMachine$ curl -i http://localhost:5000/
 
-    curl -i http://localhost:5000/fib
+    localMachine$ curl -i http://localhost:5000/fib
 
-    curl -i http://localhost:5000/fib/help
+    localMachine$ curl -i http://localhost:5000/fib/help
 
 [ ] Populate some base data (requires cloning the git repo locally) with the application running on the AWS instance
 
-    git clone https://github.com/kbsrunschi/fibonacci_app.git
+    localMachine$ git clone https://github.com/kbsrunschi/fibonacci_app.git
 
-    cd fibonacci_app
+    localMachine$ cd fibonacci_app
 
-    sh populate_data.sh
+    localMachine$ sh populate_data.sh
 
 ## Using the application <a name="running"></a>
 
   See all previously computed fibonacci numbers
-    curl -i http://localhost:5000/fib
+    localMachine$ curl -i http://localhost:5000/fib
 
   See available commands
-    curl -i http://localhost:5000/fib/help
+    localMachine$ curl -i http://localhost:5000/fib/help
 
   Get the fibonacci number for some number position in the sequence n
-    curl -i -H "Content-Type: application/json" -X POST -d '{"position": {n} }' http://localhost:5000/fib
+    localMachine$ curl -i -H "Content-Type: application/json" -X POST -d '{"position": {n} }' http://localhost:5000/fib
 
   Delete the value associated with the position in the sequence n
-    curl -X "DELETE" http://localhost:5000/fib/{n}
+    localMachine$ curl -X "DELETE" http://localhost:5000/fib/{n}
 
 ## Stop all instances <a name="teardown"></a>
 
